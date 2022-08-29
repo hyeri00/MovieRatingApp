@@ -6,11 +6,15 @@
 //
 
 import Foundation
+import UIKit
 
-class MovieVO {
-    var title: String?
-    var cast: String?
-    var year: String?
-    var rating: Double?
-    var thumbnail: String?
+struct Movie {
+    let id: Int
+    let title: String
+    let cast: String
+    let year: String
+    let rating: [String]
+    let thumbnail: String
 }
+
+

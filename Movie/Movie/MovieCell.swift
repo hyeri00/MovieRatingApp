@@ -2,14 +2,13 @@
 //  MovieCell.swift
 //  Movie
 //
-//  Created by 혜리 on 2022/08/09.
+//  Created by 혜리 on 2022/08/15.
 //
 
 import Foundation
 import UIKit
 
 class MovieCell: UITableViewCell {
-    
     @IBOutlet var title: UILabel!
     
     @IBOutlet var cast: UILabel!
@@ -18,5 +17,5 @@ class MovieCell: UITableViewCell {
     
     @IBOutlet var rating: UILabel!
     
-    @IBOutlet var thumbnail: UIImageView!
+    @IBOutlet var thumbnail: UILabel!
 }
